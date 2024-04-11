@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* instalacao de fonts */
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(fonts/montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(fonts/montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(fonts/montserrat/Montserrat-Bold.ttf);
+}

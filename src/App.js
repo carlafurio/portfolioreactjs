@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css";
+import BtnTopo from './components/btn_topo';
+import MenuMobile from './components/menu_mobile';
+import Footer from './components/footer';
+import Banner from './components/banner';
+import About from './components/about';
+import Projects from './components/projects';
+import Contacts from "./components/contacts";
+import Maps from "./components/maps";
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <BtnTopo/>
+      <MenuMobile/>
+      <main className="page">
+        <Banner/>
+        <About/>
+        <Projects/>
+        <Contacts/>
+        <Maps/>
+      </main>
+      <Footer/>
+      
     </div>
   );
 }
